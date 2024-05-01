@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &378511484052143406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6185731859967760507}
+  - component: {fileID: 7854377613230470736}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6185731859967760507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378511484052143406}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1177.2537, y: 584.681, z: -3.484779}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7854377613230470736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378511484052143406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182ab8270de6edf4baee163d8cd05fae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Shoot
+    clip: {fileID: 8300000, guid: 5f3b12efe1cd3402cb905001e349e8aa, type: 3}
+    volume: 0.08
+    pitch: 0
+    spatialBlend: 0
+    playOnAwake: 0
+    isLoop: 0
+    audSrc: {fileID: 0}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: eeac7ff7e4ad44587b11429a7e7b8fc1, type: 3}
+    volume: 1
+    pitch: 0
+    spatialBlend: 0
+    playOnAwake: 0
+    isLoop: 0
+    audSrc: {fileID: 0}
+  - name: Wave1
+    clip: {fileID: 8300000, guid: 7f69cdcd7523246aeb001327c97be0f1, type: 3}
+    volume: 1
+    pitch: 0
+    spatialBlend: 0
+    playOnAwake: 1
+    isLoop: 1
+    audSrc: {fileID: 0}
+  - name: Wave2
+    clip: {fileID: 8300000, guid: 6cb9ff74a536944baab35afe99fc17ba, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    playOnAwake: 0
+    isLoop: 1
+    audSrc: {fileID: 0}
+  - name: Wave3
+    clip: {fileID: 8300000, guid: 1ecbc4ca893514424b3b391184d00869, type: 3}
+    volume: 1
+    pitch: 0
+    spatialBlend: 0
+    playOnAwake: 0
+    isLoop: 1
+    audSrc: {fileID: 0}
+  - name: Wave4
+    clip: {fileID: 8300000, guid: aad7a7fba16964d45be7c4ebe62a3ae1, type: 3}
+    volume: 1
+    pitch: 0
+    spatialBlend: 0
+    playOnAwake: 0
+    isLoop: 1
+    audSrc: {fileID: 0}

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3930124022878480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7744078373280180022}
+  - component: {fileID: 5185686894734449982}
+  - component: {fileID: 6172577607283746037}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7744078373280180022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3930124022878480}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.63183665, y: 0.91672426, z: -0.025369471}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5185686894734449982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3930124022878480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb9c119eefe8be4f9f555d38d3dc2fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefab: {fileID: 2840683585197529251, guid: 076de3632d1ab4149bb0fcc4debb7ed8, type: 3}
+  player: {fileID: 0}
+  restart: {fileID: 0}
+  targets:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  waves:
+  - {fileID: 11400000, guid: ebe6b6a8f5b3c174a939a5ca0840552f, type: 2}
+  - {fileID: 11400000, guid: db804da49c041ab4a8a839f82e984611, type: 2}
+  - {fileID: 11400000, guid: 29ef360f29ca12d498da03ef979867c9, type: 2}
+  - {fileID: 11400000, guid: 6094fdafc16a760448f31b886878e79f, type: 2}
+  currentWave: 0
+  waveNumber: {fileID: 0}
+  audioManager: {fileID: 0}
+  numberOfObjects: 200
+  minMoveSpeed: 1
+  maxMoveSpeed: 3
+  minSpawnInterval: 0.1
+  maxSpawnInterval: 0.5
+--- !u!114 &6172577607283746037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3930124022878480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffedeca14faa9c14dae4f8029a363589, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUps:
+  - {fileID: 1225667405732597682, guid: 26bb8d15519047d4fa83cf53b6c304b7, type: 3}
+  - {fileID: 8038085905410224983, guid: 75e8a244418750e49a56101014149654, type: 3}
+  powerUpsTransform:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
